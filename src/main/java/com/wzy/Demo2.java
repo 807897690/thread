@@ -11,6 +11,10 @@ import java.util.concurrent.locks.ReentrantLock;
  * @description: TODO
  * @date 2019/7/9 21:41
  */
+
+/**
+ * 制定一个容量的容器，定义两个生产者生产，定义10个消费者消费，当生产至最大时，停止生产，消费完时停止消费
+ */
 public class Demo2 {
 
     private final LinkedList<Object> list = new LinkedList<Object>();
