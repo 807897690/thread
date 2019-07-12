@@ -1,4 +1,4 @@
-package com.wzy;
+package com.wzy.class1;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;

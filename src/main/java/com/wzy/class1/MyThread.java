@@ -1,4 +1,4 @@
-package com.wzy;
+package com.wzy.class1;
 
 /**
  * @author wzy

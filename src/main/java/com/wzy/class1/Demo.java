@@ -1,4 +1,4 @@
-package com.wzy;
+package com.wzy.class1;
 
 /**
  * @author wzy
@@ -13,6 +13,7 @@ import java.util.concurrent.CountDownLatch;
 
 /**
  * 两个线程，一个线程一直加，另一个线程监控，当前一个线程加到5的时候，线程二给出提示
+ * synchronized加在静态方法上锁的是类对象
  */
 public class Demo {
 
