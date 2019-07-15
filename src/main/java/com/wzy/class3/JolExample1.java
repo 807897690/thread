@@ -9,6 +9,11 @@ import static java.lang.System.out;
  * @author wzy
  * @title: JolExample1
  * @description:
+ * 001      无锁
+ * 101      偏向锁
+ * 00       轻量级锁
+ * 10       重量级锁
+ * 11       GC标记
  * 1、java项目启动，延迟5秒左右执行才会给对象加上偏向锁，否则一开始对象都是无锁
  * 2、偏向锁与hashcode互斥，如果一个对象的状态是偏向锁，那么该对象肯定没有hashcode值，否则该对象的状态绝不会是偏向锁
  * @date 2019/7/14 20:37

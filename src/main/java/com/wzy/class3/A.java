@@ -8,6 +8,11 @@ package com.wzy.class3;
  */
 public class A {
 
-//    private boolean flag;
+    int i=0;
+    public synchronized void parse(){
+        i++;
+        JolExample7.countDownLatch.countDown();
+    }
+
 
 }
