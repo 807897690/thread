@@ -11,7 +11,9 @@ import static java.lang.System.out;
 /**
  * @author wzy
  * @title: Example2
- * @description: TODO
+ * @description:
+ * 对一个类实例化60次，每次都进行同步，一开始60次全部都是批量锁（默认开启偏向锁）,然后循环这60个对象，
+ * 每次又进行同步，第20个及以后全部变为偏向锁，之前的19个还是轻量级锁,最后又循环这60个对象，依次同步
  * @date 2019/7/18 21:55
  */
 public class Example2 {
@@ -84,17 +86,21 @@ public class Example2 {
         Thread t3 = new Thread(){
             @Override
             public void run() {
-                for (int i=30; i<list.size(); i++) {
+                for (int i=0; i<list.size(); i++) {
                     A a = list.get(i);
                     synchronized (a) {
-                        if (i == 54) {
+                        if (i == 10) {
                             out.println("t3");
                             out.println(ClassLayout.parseInstance(a).toPrintable());
                         }
                     }
                 }
-                A a = list.get(20);
-                out.println("t3 after");
+                A a = list.get(50);
+                out.println("a50 after");
+                out.println(ClassLayout.parseInstance(a).toPrintable());
+
+                a = list.get(51);
+                out.println("a51 after");
                 out.println(ClassLayout.parseInstance(a).toPrintable());
             }
         };
