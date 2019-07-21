@@ -89,14 +89,18 @@ public class Example2 {
                 for (int i=0; i<list.size(); i++) {
                     A a = list.get(i);
                     synchronized (a) {
-                        if (i == 10) {
+                        if (i == 19) {
                             out.println("t3");
                             out.println(ClassLayout.parseInstance(a).toPrintable());
                         }
                     }
                 }
-                A a = list.get(50);
-                out.println("a50 after");
+                A a = list.get(0);
+                out.println("a0 after");
+                out.println(ClassLayout.parseInstance(a).toPrintable());
+
+                a = list.get(20);
+                out.println("a20 after");
                 out.println(ClassLayout.parseInstance(a).toPrintable());
 
                 a = list.get(51);
@@ -105,6 +109,28 @@ public class Example2 {
             }
         };
         t3.start();
+        t3.join();
+
+        Thread thread2 = new Thread(){
+            @Override
+            public void run() {
+                try {
+                    Thread.sleep(3000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                super.run();
+            }
+        };
+        thread2.start();
+        thread2.join();
+
+        A a = new A();
+        synchronized (a) {
+            out.println("new a init");
+            out.println(ClassLayout.parseInstance(a).toPrintable());
+        }
+
     }
 
 }
