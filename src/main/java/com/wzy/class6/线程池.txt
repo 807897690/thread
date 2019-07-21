@@ -1,0 +1,4 @@
+cachePool  :  缓存，里面默认没有线程，默认60s之后，线程会被清空
+singleThreadPool:默认只有一个线程
+schedulThreadPool:定时执行线程
+workStealingPool:任务窃取
