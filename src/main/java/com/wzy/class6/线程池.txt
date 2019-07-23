@@ -11,4 +11,5 @@ workStealingPool:任务窃取
 1、CallerRunsPolicy：该策略不会放弃任务，而是让调用execute本身的线程来执行，可能会导致整个程序中断；
 2、AbortPolicy:这种策略直接抛出异常，丢弃任务，jdk默认策略
 3、DiscardPolicy：不能执行的任务将被删除，和上个一样，只是不抛出异常
-4、DiscardOldestPolicy：如果执行程序尚未关闭，则位于工作队列头部的任务将被删除，然后重试执行程序（如果再次失败，则重复此过程）
+4、DiscardOldestPolicy：如果执行程序尚未关闭，则位于工作队列头部的任务将被删除，然后重试执行程序
+  （如果再次失败，则重复此过程）
