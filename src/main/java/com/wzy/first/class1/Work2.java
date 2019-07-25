@@ -27,12 +27,7 @@ public class Work2 {
                 @Override
                 public void run() {
                     while (true) {
-                        System.out.println(Thread.currentThread().getName() + "-----------" + getOrder());
-//                        try {
-//                           TimeUnit.MILLISECONDS.sleep(10);
-//                        } catch (InterruptedException e) {
-//                            e.printStackTrace();
-//                        }
+                        getOrder();
                     }
                 }
             });
@@ -55,13 +50,13 @@ public class Work2 {
         }).start();
     }
 
-    public synchronized static String getOrder() {
+    public synchronized static void getOrder() {
         if (orders.size() > 0) {
             String order = orders.get(0);
             orders.remove(0);
-            return order;
+            System.out.println(Thread.currentThread().getName() + "-----------" + order);
         } else {
-            return "还没订单号生成";
+            System.out.println(Thread.currentThread().getName() + "-----------" + "还没订单号生成");
         }
     }
 
