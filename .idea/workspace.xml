@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a24ca878-2a6c-4834-b308-9dbdfa3bc900" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wzy/first/class3/VolitileDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wzy/first/class4/DCL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wzy/first/class4/EnumDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wzy/first/class4/EnumSingletonDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wzy/first/class4/HolderDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wzy/first/class4/HoonSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wzy/first/class4/HoonSyncSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wzy/first/class4/HoonSyncSingletonDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wzy/first/class4/HungrySingleton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wzy/first/class3/VolitileDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wzy/first/class3/VolitileDemo.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,78 +38,92 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/class8/MySync.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/first/class4/HungrySingleton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1587">
-              <caret line="76" column="19" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
+            <state relative-caret-position="161">
+              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#329#330#0" expanded="true" />
+                <element signature="e#367#368#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/first/class2/Work.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/first/class4/HoonSingleton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="966">
-              <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
+            <state relative-caret-position="330">
+              <caret line="39" column="26" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="39" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/first/class3/VolitileDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/first/class4/HoonSyncSingleton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+            <state relative-caret-position="-383">
+              <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/jdk1.8.0_77/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/first/class4/HoonSyncSingletonDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="230" column="32" selection-start-line="230" selection-start-column="32" selection-end-line="230" selection-end-column="32" />
-              <folding>
-                <element signature="e#6849#6850#0" expanded="true" />
-                <element signature="e#6907#6908#0" expanded="true" />
-                <element signature="e#7116#7117#0" expanded="true" />
-                <element signature="e#7150#7151#0" expanded="true" />
-                <element signature="e#9117#9118#0" expanded="true" />
-                <element signature="e#9144#9145#0" expanded="true" />
-                <element signature="e#15850#15851#0" expanded="true" />
-                <element signature="e#15881#15882#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="184">
+              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/first/class4/DCL.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-23">
+              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="jar://D:/jdk1.8.0_77/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/first/class4/HolderDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="856" column="18" selection-start-line="856" selection-start-column="18" selection-end-line="856" selection-end-column="18" />
+            <state relative-caret-position="77">
+              <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
               <folding>
-                <element signature="e#22675#22676#0" expanded="true" />
-                <element signature="e#22703#22704#0" expanded="true" />
-                <element signature="e#41392#41393#0" expanded="true" />
-                <element signature="e#41449#41450#0" expanded="true" />
-                <element signature="e#42562#42563#0" expanded="true" />
-                <element signature="e#42619#42620#0" expanded="true" />
+                <element signature="e#328#329#0" expanded="true" />
+                <element signature="e#356#357#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/class8/Lock.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/first/class4/EnumSingletonDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="37" column="5" selection-start-line="35" selection-start-column="4" selection-end-line="37" selection-end-column="5" />
+            <state>
+              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#328#329#0" expanded="true" />
+                <element signature="e#385#386#0" expanded="true" />
+                <element signature="e#439#440#0" expanded="true" />
+                <element signature="e#472#473#0" expanded="true" />
+                <element signature="e#531#532#0" expanded="true" />
+                <element signature="e#566#567#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/first/class4/EnumDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-69">
+              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+              <folding>
+                <element signature="e#212#213#0" expanded="true" />
+                <element signature="e#248#249#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -113,6 +135,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -128,16 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/wzy/class2/ArrayBlockingQueueDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wzy/class2/DelayQueueDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wzy/class2/TransferQueueDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wzy/class2/SynchronizedQueueDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wzy/class2/ThreadLocalDemo.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wzy/class3/JolExample2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wzy/class3/JolExample3.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wzy/class3/HashUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wzy/class3/JolExample1.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wzy/class3/JolExample4.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wzy/class3/JolExample5.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wzy/class3/JolExample6.java" />
@@ -179,6 +192,16 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wzy/class8/MyLock.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wzy/class8/MySync.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wzy/first/class3/VolitileDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wzy/first/class4/HungrySingleton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wzy/first/class4/HoonSingleton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wzy/first/class4/HoonSyncSingleton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wzy/first/class4/HoonSyncSingletonDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wzy/first/class4/DCL.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wzy/first/class4/Holder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wzy/first/class4/HolderDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wzy/first/class4/EnumDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wzy/first/class4/EnumSingleton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wzy/first/class4/EnumSingletonDemo.java" />
       </list>
     </option>
   </component>
@@ -189,7 +212,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="223" />
     <option name="y" value="72" />
     <option name="width" value="1400" />
@@ -201,6 +224,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -242,7 +266,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="wzy" type="462c0819:PsiDirectoryNode" />
-              <item name="class2" type="462c0819:PsiDirectoryNode" />
+              <item name="first" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="thread" type="b2602c69:ProjectViewProjectNode" />
@@ -251,19 +275,19 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="wzy" type="462c0819:PsiDirectoryNode" />
-              <item name="class6" type="462c0819:PsiDirectoryNode" />
+              <item name="first" type="462c0819:PsiDirectoryNode" />
+              <item name="class4" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564134227753" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564197549996" />
     <property name="last_opened_file_path" value="E:/spring/spring" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -274,6 +298,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wzy.first.class4" />
       <recent name="com.wzy.class2" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -294,13 +319,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.VolitileDemo">
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wzy.class8.Test" />
+  <component name="RunManager" selected="Application.EnumDemo">
+    <configuration name="DCL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wzy.first.class4.DCL" />
       <module name="thread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wzy.class8.*" />
+          <option name="PATTERN" value="com.wzy.first.class4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -308,12 +333,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VolitileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wzy.first.class3.VolitileDemo" />
+    <configuration name="EnumDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wzy.first.class4.EnumDemo" />
       <module name="thread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wzy.first.class3.*" />
+          <option name="PATTERN" value="com.wzy.first.class4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -321,12 +346,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Work" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wzy.first.class2.Work" />
+    <configuration name="HolderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wzy.first.class4.HolderDemo" />
       <module name="thread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wzy.first.class2.*" />
+          <option name="PATTERN" value="com.wzy.first.class4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -334,12 +359,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Work2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wzy.first.class1.Work2" />
+    <configuration name="HoonSyncSingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wzy.first.class4.HoonSyncSingleton" />
       <module name="thread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wzy.first.class1.*" />
+          <option name="PATTERN" value="com.wzy.first.class4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -347,12 +372,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Work3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wzy.first.class1.Work3" />
+    <configuration name="HoonSyncSingletonDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wzy.first.class4.HoonSyncSingletonDemo" />
       <module name="thread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wzy.first.class1.*" />
+          <option name="PATTERN" value="com.wzy.first.class4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -361,19 +386,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Work3" />
-      <item itemvalue="Application.Work2" />
-      <item itemvalue="Application.Work" />
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.VolitileDemo" />
+      <item itemvalue="Application.HoonSyncSingleton" />
+      <item itemvalue="Application.HoonSyncSingletonDemo" />
+      <item itemvalue="Application.DCL" />
+      <item itemvalue="Application.HolderDemo" />
+      <item itemvalue="Application.EnumDemo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.VolitileDemo" />
-        <item itemvalue="Application.Work" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Work2" />
-        <item itemvalue="Application.Work3" />
+        <item itemvalue="Application.EnumDemo" />
+        <item itemvalue="Application.HolderDemo" />
+        <item itemvalue="Application.DCL" />
+        <item itemvalue="Application.HoonSyncSingletonDemo" />
+        <item itemvalue="Application.HoonSyncSingleton" />
       </list>
     </recent_temporary>
   </component>
@@ -419,6 +444,7 @@
       <workItem from="1564057101807" duration="5668000" />
       <workItem from="1564106390942" duration="11321000" />
       <workItem from="1564145575489" duration="942000" />
+      <workItem from="1564192391467" duration="4873000" />
     </task>
     <task id="LOCAL-00001" summary="thread">
       <created>1562722167246</created>
@@ -480,12 +506,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101714000" />
+    <option name="totallyTimeSpent" value="106587000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.30484116" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.30937973" />
       <window_info id="Structure" order="1" sideWeight="0.50163937" side_tool="true" weight="0.295764" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -495,7 +522,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38688526" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2885246" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.40327868" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -560,84 +587,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/class5/Example2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1426">
-          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk1.8.0_77/src.zip!/java/util/concurrent/RejectedExecutionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk1.8.0_77/src.zip!/java/util/concurrent/ScheduledThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="428" column="11" selection-start-line="428" selection-start-column="11" selection-end-line="428" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/class2/SynchronizedQueueDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/class1/Demo3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/class1/Demo2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/class6/Demo4_SingleThreadPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/class6/Demo5_ScheduleThreadPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="15" column="62" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk1.8.0_77/src.zip!/java/util/concurrent/Executor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="139" column="9" selection-start-line="139" selection-start-column="9" selection-end-line="139" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/class6/Demo_ThreadPool.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="123">
@@ -795,16 +744,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/first/class1/Work2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6">
-          <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/first/class1/Work6.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -901,23 +840,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/class8/MySync.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1587">
-          <caret line="76" column="19" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/first/class2/Work.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="966">
-          <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/jdk1.8.0_77/src.zip!/java/util/concurrent/Executors.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4002">
@@ -929,16 +851,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/class8/Lock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="37" column="5" selection-start-line="35" selection-start-column="4" selection-end-line="37" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -982,16 +894,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/first/class3/VolitileDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/class8/MySync.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        <state relative-caret-position="1587">
+          <caret line="76" column="19" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/first/class2/Work.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="966">
+          <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="jar://D:/jdk1.8.0_77/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
+        <state relative-caret-position="4232">
           <caret line="230" column="32" selection-start-line="230" selection-start-column="32" selection-end-line="230" selection-end-column="32" />
           <folding>
             <element signature="e#6849#6850#0" expanded="true" />
@@ -1006,10 +928,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/class8/Lock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="37" column="5" selection-start-line="35" selection-start-column="4" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://D:/jdk1.8.0_77/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="856" column="18" selection-start-line="856" selection-start-column="18" selection-end-line="856" selection-end-column="18" />
+        <state relative-caret-position="94">
+          <caret line="867" column="17" lean-forward="true" selection-start-line="867" selection-start-column="17" selection-end-line="867" selection-end-column="17" />
           <folding>
             <element signature="e#22675#22676#0" expanded="true" />
             <element signature="e#22703#22704#0" expanded="true" />
@@ -1017,6 +949,110 @@
             <element signature="e#41449#41450#0" expanded="true" />
             <element signature="e#42562#42563#0" expanded="true" />
             <element signature="e#42619#42620#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/first/class1/Work2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/first/class3/VolitileDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/first/class4/HungrySingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding>
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/first/class4/HoonSyncSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-383">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/first/class4/HoonSyncSingletonDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/first/class4/HoonSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="39" column="26" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="39" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/first/class4/EnumDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-69">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding>
+            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/first/class4/EnumSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" selection-start-line="8" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/first/class4/EnumSingletonDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          <folding>
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#566#567#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/first/class4/DCL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-23">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wzy/first/class4/HolderDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding>
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
           </folding>
         </state>
       </provider>
